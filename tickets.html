@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets - Paris 2024 Olympics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* Background for the entire page */
+        body {
+            background-image: url('paris-2024-summer-olympics-eiffel-tower-poster-wallpaper-1920x1080_48-Photoroom.png'); /* Replace with your actual image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Navbar customizations */
+        .navbar {
+            background-color: #ffc0cb !important; /* Light pink color */
+            transition: background-color 0.5s ease;
+        }
+
+        /* Navbar hover animation */
+        .navbar-nav .nav-link:hover {
+            color: #ff69b4 !important; /* Deeper pink on hover */
+            text-decoration: underline;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            border-radius: 10px;
+        }
+
+        /* Ticket Details */
+        .ticket-details {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        /* Ticket cards */
+        .ticket-card {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button styling to match the header color */
+        .btn-primary {
+            background-color: #ffc0cb !important; /* Light pink color */
+            border-color: #ffc0cb !important; /* Light pink border */
+            color: black !important; /* Black text */
+            font-weight: bold;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff69b4 !important; /* Darker pink on hover */
+            border-color: #ff69b4 !important; /* Darker pink border on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Paris 2024</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">All Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="athletes.html">Athletes</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tickets.html">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="content mt-5">
+        <div class="container">
+            <h1>Purchase Tickets</h1>
+            <p class="lead">Secure your spot at the Paris 2024 Olympics by purchasing tickets for your favorite events.</p>
+
+            <div class="ticket-details">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="ticket-card">
+                            <h3>Opening Ceremony</h3>
+                            <p><strong>Date:</strong> July 26, 2024</p>
+                            <p><strong>Venue:</strong> Stade de France, Paris</p>
+                            <p>Experience the grandeur of the Paris 2024 Olympics Opening Ceremony with a ticket that grants you access to the parade of nations and the lighting of the Olympic flame.</p>
+                            <a href="payment.html" class="btn btn-primary">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="ticket-card">
+                            <h3>Track & Field Finals</h3>
+                            <p><strong>Date:</strong> August 3, 2024</p>
+                            <p><strong>Venue:</strong> Stade de France, Paris</p>
+                            <p>Watch the world's fastest athletes compete for gold in the Track & Field finals. Don't miss the chance to witness history in the making.</p>
+                            <a href="payment.html" class="btn btn-primary">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="ticket-card">
+                            <h3>Gymnastics Finals</h3>
+                            <p><strong>Date:</strong> August 7, 2024</p>
+                            <p><strong>Venue:</strong> Bercy Arena, Paris</p>
+                            <p>Cheer on your favorite gymnasts as they perform stunning routines in the Gymnastics finals. Secure your seats today!</p>
+                            <a href="payment.html" class="btn btn-primary">Buy Tickets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ticket-details">
+                <div class="ticket-card">
+                    <h3>Closing Ceremony</h3>
+                    <p><strong>Date:</strong> August 11, 2024</p>
+                    <p><strong>Venue:</strong> Stade de France, Paris</p>
+                    <p>Be a part of the closing festivities of the Paris 2024 Olympics. The Closing Ceremony will celebrate the achievements of athletes and mark the end of the games.</p>
+                    <a href="payment.html" class="btn btn-primary">Buy Tickets</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2024 Paris Olympics. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

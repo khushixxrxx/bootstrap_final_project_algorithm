@@ -1,0 +1,60 @@
+/* Custom Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #ffd700 !important; /* Olympic Gold Color */
+}
+
+.hero {
+    background-image: url('../images/olympics-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-light {
+    background-color: #ffd700; /* Olympic Gold Color */
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #ccac00;
+}

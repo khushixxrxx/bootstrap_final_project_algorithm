@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletes - Paris 2024 Olympics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* Background for the entire page */
+        body {
+            background-image: url('paris-2024-summer-olympics-eiffel-tower-poster-wallpaper-1920x1080_48-Photoroom.png'); /* Replace with your actual image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Navbar customizations */
+        .navbar {
+            background-color: #ffc0cb !important; /* Light pink color */
+            transition: background-color 0.5s ease;
+        }
+
+        /* Navbar hover animation */
+        .navbar-nav .nav-link:hover {
+            color: #ff69b4 !important; /* Deeper pink on hover */
+            text-decoration: underline;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            border-radius: 10px;
+        }
+
+        /* Athlete Details */
+        .athlete-details {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        /* Athlete cards */
+        .athlete-card {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button styling to match the header color */
+        .btn-primary {
+            background-color: #ffc0cb !important; /* Light pink color */
+            border-color: #ffc0cb !important; /* Light pink border */
+            color: black !important; /* Black text */
+            font-weight: bold;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff69b4 !important; /* Darker pink on hover */
+            border-color: #ff69b4 !important; /* Darker pink border on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Paris 2024</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">All Events</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="athletes.html">Athletes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="content mt-5">
+        <div class="container">
+            <h1>Meet the Athletes</h1>
+            <p class="lead">Get to know the world-class athletes competing in the Paris 2024 Olympics.</p>
+
+            <div class="athlete-details">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="athlete-card">
+                            <img src="https://ignorelimits.com/wp-content/uploads/2015/11/john-doe-bodybuilding.jpg" class="img-fluid" alt="Athlete 1">
+                            <h3>John Doe</h3>
+                            <p>Sport: Track & Field</p>
+                            <p>John Doe is a world-renowned sprinter, known for his explosive speed and determination. He is the reigning world champion in the 100m and 200m events and is expected to shine at the Paris 2024 Olympics.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="athlete-card">
+                            <img src="https://d2a3o6pzho379u.cloudfront.net/90577.jpg" class="img-fluid" alt="Athlete 2">
+                            <h3>Jane Smith</h3>
+                            <p>Sport: Swimming</p>
+                            <p>Jane Smith is a multi-gold medalist in swimming. Her specialty is the freestyle, and she holds multiple world records. At Paris 2024, Jane is aiming to break even more records and defend her titles.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="athlete-card">
+                            <img src="https://i.pinimg.com/originals/68/bd/c6/68bdc623f5636d30a615bb6068da67fb.jpg" class="img-fluid" alt="Athlete 3">
+                            <h3>Alex Brown</h3>
+                            <p>Sport: Gymnastics</p>
+                            <p>Alex Brown is a leading gymnast with a focus on the floor exercise and vault. Known for his precision and creativity, Alex is a strong contender for multiple medals at the Paris 2024 Olympics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="payment.html" class="btn btn-primary mt-4">Buy Tickets</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2024 Paris Olympics. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

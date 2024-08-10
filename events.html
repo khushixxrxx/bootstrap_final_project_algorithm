@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Paris 2024 Olympics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* Background for the entire page */
+        body {
+            background-image: url('paris-2024-summer-olympics-eiffel-tower-poster-wallpaper-1920x1080_48-Photoroom.png'); /* Replace with your actual image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Navbar customizations */
+        .navbar {
+            background-color: #ffc0cb !important; /* Light pink color */
+            transition: background-color 0.5s ease;
+        }
+
+        /* Navbar hover animation */
+        .navbar-nav .nav-link:hover {
+            color: #ff69b4 !important; /* Deeper pink on hover */
+            text-decoration: underline;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            border-radius: 10px;
+        }
+
+        /* Event Details */
+        .event-details {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        /* Event cards */
+        .event-card {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button styling to match the header color */
+        .btn-primary {
+            background-color: #ffc0cb !important; /* Light pink color */
+            border-color: #ffc0cb !important; /* Light pink border */
+            color: black !important; /* Black text */
+            font-weight: bold;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff69b4 !important; /* Darker pink on hover */
+            border-color: #ff69b4 !important; /* Darker pink border on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Paris 2024</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="events.html">All Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="athletes.html">Athletes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="content mt-5">
+        <div class="container">
+            <h1>Upcoming Events</h1>
+            <p class="lead">Experience the thrill of the Paris 2024 Olympics. Below is a list of key events to look forward to.</p>
+
+            <div class="event-details">
+                <h3>Opening Ceremony</h3>
+                <p><strong>Date:</strong> July 26, 2024</p>
+                <p><strong>Venue:</strong> Stade de France, Paris</p>
+                <p>The grand opening of the Paris 2024 Olympics will feature spectacular performances, the parade of nations, and the lighting of the Olympic flame.</p>
+            </div>
+
+            <div class="event-details">
+                <h3>Track & Field</h3>
+                <p><strong>Date:</strong> July 27 - August 4, 2024</p>
+                <p><strong>Venue:</strong> Stade de France, Paris</p>
+                <p>Witness world-class athletes compete in sprinting, long-distance running, hurdles, relays, jumping, and throwing events.</p>
+            </div>
+
+            <div class="event-details">
+                <h3>Swimming</h3>
+                <p><strong>Date:</strong> July 28 - August 5, 2024</p>
+                <p><strong>Venue:</strong> Aquatics Centre, Paris</p>
+                <p>Catch the action as swimmers from around the world compete in freestyle, backstroke, breaststroke, butterfly, and medley events.</p>
+            </div>
+
+            <div class="event-details">
+                <h3>Gymnastics</h3>
+                <p><strong>Date:</strong> July 29 - August 7, 2024</p>
+                <p><strong>Venue:</strong> Bercy Arena, Paris</p>
+                <p>Watch top gymnasts perform routines on the floor, vault, uneven bars, balance beam, and more in this thrilling event.</p>
+            </div>
+
+            <div class="event-details">
+                <h3>Closing Ceremony</h3>
+                <p><strong>Date:</strong> August 11, 2024</p>
+                <p><strong>Venue:</strong> Stade de France, Paris</p>
+                <p>The Paris 2024 Olympics will conclude with a spectacular closing ceremony, celebrating the achievements of athletes and the Olympic spirit.</p>
+            </div>
+
+            <a href="payment.html" class="btn btn-primary mt-4">Buy Tickets</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2024 Paris Olympics. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
